@@ -1,0 +1,63 @@
+body {
+    background-image: url("../images/pool_table.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+    text-shadow: 3px 6px 3px rgb(0, 0, 225)
+}
+
+#form-container {
+   margin-top: 20px;
+   max-width: 80%;
+   margin-left: auto; 
+   margin-right: auto;
+   font-size: 40px;
+   box-shadow: 3px 6px 10px rgb(8, 24, 38);
+}
+
+#answers {
+    margin-top: 20px;
+    max-width: 80%;
+    text-align: center;
+    font-size: 50px;
+}
+
+#ask {
+    border-radius: 10px;
+    height: 40px;
+    font-size: 30px;
+}
+
+#button {
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#eight-ball {
+    height: 500px;
+    width: 500px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media all and (min-width: 500px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    #eight-ball {
+        flex-direction: column;
+    }
+}
