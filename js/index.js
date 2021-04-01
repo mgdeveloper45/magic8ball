@@ -19,9 +19,6 @@ myDiv.appendChild(label);
 let input = document.createElement("input");
 input.setAttribute("type", "text");
 input.setAttribute("id", "ask");
-input.setAttribute("size", "50");
-// input.setAttribute('value', "");
-// input.setAttribute("onclick", "randomImage()");
 label.appendChild(input);
 
 let button = document.createElement("button");

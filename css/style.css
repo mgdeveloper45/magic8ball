@@ -6,23 +6,22 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
     font-size: 50px;
     text-shadow: 3px 6px 3px rgb(0, 0, 225)
 }
 
 #form-container {
    margin-top: 20px;
-   max-width: 80%;
+   max-width: 65%;
    margin-left: auto; 
    margin-right: auto;
-   font-size: 40px;
+   font-size: 30px;
    box-shadow: 3px 6px 10px rgb(8, 24, 38);
 }
 
 #answers {
     margin-top: 20px;
-    max-width: 80%;
     text-align: center;
     font-size: 50px;
 }
@@ -39,8 +38,8 @@ h1 {
 }
 
 #eight-ball {
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
 }
 
 body {
@@ -49,7 +48,7 @@ body {
     justify-content: center;
 }
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 800px) {
 
     body {
         display: flex;
@@ -58,6 +57,15 @@ body {
 
     }
     #eight-ball {
-        flex-direction: column;
+        flex-direction: row;
+        height: 500px;
+        width: 500px;
+    }
+    #form-container {
+        max-width: 80%;
+        font-size: 40px;
+    }
+    h1 {
+        font-size: 60px;
     }
 }
